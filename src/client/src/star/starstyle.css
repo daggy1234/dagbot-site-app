@@ -1,0 +1,22 @@
+.star {
+  display: inline-block;
+  transition: all 0.5s ease;
+}
+
+.star:hover {
+  transform: scale(1.5);
+}
+
+.star:hover:not(:first-child) {
+  margin-left: 0.2rem;
+}
+
+.star:hover:not(:last-child) {
+  margin-right: 0.2rem;
+}
+
+.stars {
+  color: #ffcd51;
+  flex-shrink: 0;
+  margin-left: 0.25rem;
+}

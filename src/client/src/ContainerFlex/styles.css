@@ -1,0 +1,50 @@
+.title-text-container {
+    font-family: Montserrat;
+    font-weight: 700;
+    color: #7289da;
+}
+
+.rounded-image {
+    border-radius: .5rem;
+    border-style: solid;
+    border-color: #d2d6dc;
+    border-width: 0;
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,.1),0 10px 10px -5px rgba(0,0,0,.04);
+    --bg-opacity: 1;
+    background-color: rgba(35,34,43,var(--bg-opacity));
+}   
+
+.paragraph-text-container {
+    font-family: Montserrat;
+    font-weight: 500;
+    padding: 0% 10%;
+    color: #fff;
+}
+
+.container-class {
+    padding: 5% 10%;
+}
+
+.fade-appear {
+    opacity: 0;
+}
+.fade-appear.fade-appear-active {
+    opacity: 1;
+    transition: opacity 2000ms linear;
+}
+.fade-exit {
+    opacity: 1;
+}
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 1000ms;
+}
+
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 2000ms ease-in;
+}

@@ -1,0 +1,14 @@
+.home-page-buttons {
+    background-color: #4e5d94;
+    color: whitesmoke;
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1%;
+    align-self: center;
+    border-color: #23272a;
+    border-radius: 10px;
+}
+
+.central-div {
+    padding: 10% 10%;
+}

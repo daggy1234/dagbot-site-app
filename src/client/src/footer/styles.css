@@ -1,0 +1,12 @@
+.container {
+    background-color: #23272A;
+}
+
+.fa-logo {
+    padding: 2%;
+    font-size: 2em;
+}
+
+.invite-button:hover{
+    background-color: palevioletred;
+}
