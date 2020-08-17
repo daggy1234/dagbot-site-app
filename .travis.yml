@@ -4,6 +4,11 @@ node_js:
 services:
     - docker
 
+before-script:
+    - touch .env
+    - echo NODE_ENV=production >> .env
+    
+
 script:
     - docker-compose build
 
