@@ -11,7 +11,7 @@ const StatRoute = require('./routes/stats')
 let Site = require('./routes/site')
 let cors = require('cors')
 let path = require('path')
-let port = 5000
+const port = process.env.PORT || 5000
 
 Sentry.init({
     dsn:
