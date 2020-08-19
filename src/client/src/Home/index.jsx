@@ -22,7 +22,7 @@ export default function Home(props) {
                 <ContainerFlex
                     title={'Easy Gif and Image Manipulation'}
                     description={
-                        "Make fun and mind bogglingly cool images and gifs all powered by the Dagbot API. With our Image Converter everything from emojis, to user pfp's can be edited!"
+                        "Make fun and mind bogglingly cool images and gifs all powered by the Dagbot API. With our Image Converter everything from emojis to user pfp's can be edited!"
                     }
                     image={'https://i.imgur.com/wO49v4V.jpeg'}
                     left={true}
@@ -30,7 +30,7 @@ export default function Home(props) {
                 <ContainerFlex
                     title={'Powerful Meme Generator'}
                     description={
-                        'With more than 100 predefined meme generators combined with a profesional modern meme creator and a retro meme creator that support all images,making memes has never been so easy'
+                        'With more than 100 predefined meme generators combined with a professional, modern meme creator and a retro meme creator that support all images, making memes has never been so easy'
                     }
                     image={'https://i.imgur.com/gplHs6M.gif'}
                     left={false}
@@ -38,7 +38,7 @@ export default function Home(props) {
                 <ContainerFlex
                     title={'Lots of fun minigames'}
                     description={
-                        'A refreshing break from the same economy games, dagbot has fun ranging from a AI tictactoe, to hangman. It even has whose that pokemon and a logo guessing game!'
+                        'A refreshing break from the same economy games, Dagbot has fun ranging from a AI tictactoe to hangman. It even has who\'s that pokemon and a logo guessing game!'
                     }
                     image={'https://i.imgur.com/wO49v4V.jpeg'}
                     left={true}
@@ -46,7 +46,7 @@ export default function Home(props) {
                 <ContainerFlex
                     title={'Control what happens'}
                     description={
-                        'Dagbot is highly modular with modules named Cogs can be enabled/disabled not to mention the standard customiseable prefix'
+                        'Dagbot is highly modular with modules (named Cogs) that can be enabled/disabled at will. Plus, the prefix can be customised to your liking.'
                     }
                     image={'https://i.imgur.com/mon5XTF.gif'}
                     left={false}
@@ -54,7 +54,7 @@ export default function Home(props) {
                 <ContainerFlex
                     title={'Even Information is fun!'}
                     description={
-                        "Dagbot's command provide accurate info quickly! View Spotify, VSC ,badges guild stats and more right on discord! Combine this with YT, Google searches and all the info is ready!"
+                        "Dagbot's commands provide accurate info quickly! View Spotify, VSC, badges, guild stats and more, right on Discord! Dagbot also boasts search capabilities for sites such as Google and YouTube!"
                     }
                     image={'https://i.imgur.com/kkQZXLF.jpeg'}
                     left={true}
