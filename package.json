@@ -19,7 +19,7 @@
         "express": "^4.17.1",
         "mongoose": "^5.9.27",
         "morgan": "^1.10.0",
-        "underscore": "^1.10.2",
+        "underscore": "^1.12.0",
         "winston": "^3.3.3"
     },
     "devDependencies": {
